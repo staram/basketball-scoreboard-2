@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score-home" id="score-home-display">
+                    0
+                </div>
+                <div class="button-bar">
+                    <button onclick="homeAdd1()">+1</button>
+                    <button onclick="homeAdd2()">+2</button>
+                    <button onclick="homeAdd3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score-guest" id="score-guest-display">
+                    0
+                </div>
+                <div class="button-bar">
+                    <button onclick="guestAdd1()">+1</button>
+                    <button onclick="guestAdd2()">+2</button>
+                    <button onclick="guestAdd3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="reset">
+        <button onclick="resetPoints()">Reset</button>
+        </div>
+
+        <div class="previous" id="save-data">Previous scores: 
+        </div>
+
+        <div class="madeby">Made by <a href="">staram</a>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
